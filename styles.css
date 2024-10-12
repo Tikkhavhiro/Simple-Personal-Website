@@ -46,3 +46,66 @@ body {
     right: 500px;
     bottom: 200px;
 }
+
+#profile > .container {
+    background-color: #C7FFD8;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 1920px;
+}
+
+.cloud {
+    position: relative;
+}
+
+.cloud-1 {
+    position: absolute;
+    right: 300px;
+    top: 150px;
+}
+
+.cloud-2 {
+    position: absolute;
+    left: 100px;
+    top: 650px;
+}
+
+.profile-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-opening {
+    text-align: center;
+    color: #1A51BA;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1 {
+    font-size: 10rem;
+    font-family:'Poppins Regular', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.text-2 {
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 4rem;
+    font-family: 'Chaparral Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chaparral Pro Regular'), url('ChaparralPro-Regular.woff') format('woff');
+}
+
+.cloud-3 {
+    position: absolute;
+    right: 300px;
+    bottom: 150px;
+}
