@@ -1,111 +1,143 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #header > .container {
-    display: flex;
-    position: relative;
-    background-image: url("./images/bg-header.jpg");
-    background-blend-mode: overlay;
-    background-color: #1A51BA;
-    justify-content: center;
-    width: 100%;
-    height: 1920px;
+  display: flex;
+  position: relative;
+  background-image: url("./images/bg-header.jpg");
+  background-blend-mode: overlay;
+  background-color: #1a51ba;
+  justify-content: center;
+  width: 100%;
+  height: 1920px;
 }
 
 .text-header {
-    display: block;
-    text-align: center;
-    color: #C7FFD8;
+  display: block;
+  text-align: center;
+  color: #c7ffd8;
 }
 
 .title {
-    position: relative;
-    font-size: 15rem;
-    margin: 40% 0 0 0;
-    font-family:'Poppins Regular', sans-serif;
-    text-shadow: 30px 20px 30px #323232;
+  position: relative;
+  font-size: 15rem;
+  margin: 40% 0 0 0;
+  font-family: "Poppins Regular", sans-serif;
+  text-shadow: 30px 20px 30px #323232;
 }
 
 .subtitle {
-    margin-top: 30px;
-    position: relative;
-    font-size: 8rem;
+  margin-top: 30px;
+  position: relative;
+  font-size: 8rem;
 
-    font-family: 'Chaparral Pro Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Chaparral Pro Regular'), url('ChaparralPro-Regular.woff') format('woff');
+  font-family: "Chaparral Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Chaparral Pro Regular"),
+    url("ChaparralPro-Regular.woff") format("woff");
 }
 
 .rocket-image {
-    width: 10%;
-    position: absolute;
-    right: 500px;
-    bottom: 200px;
+  width: 10%;
+  position: absolute;
+  right: 500px;
+  bottom: 200px;
 }
 
 #profile > .container {
-    background-color: #C7FFD8;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    width: 100%;
-    height: 1920px;
+  background-color: #c7ffd8;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 1920px;
 }
 
 .cloud {
-    position: relative;
+  position: relative;
 }
 
 .cloud-1 {
-    position: absolute;
-    right: 300px;
-    top: 150px;
+  position: absolute;
+  right: 300px;
+  top: 150px;
 }
 
 .cloud-2 {
-    position: absolute;
-    left: 100px;
-    top: 650px;
+  position: absolute;
+  left: 100px;
+  top: 650px;
 }
 
 .profile-desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-opening {
-    text-align: center;
-    color: #1A51BA;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  color: #1a51ba;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-1 {
-    font-size: 10rem;
-    font-family:'Poppins Regular', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 0px;
+  font-size: 10rem;
+  font-family: "Poppins Regular", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .text-2 {
-    color: black;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 4rem;
-    font-family: 'Chaparral Pro Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Chaparral Pro Regular'), url('ChaparralPro-Regular.woff') format('woff');
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 4rem;
+  font-family: "Chaparral Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Chaparral Pro Regular"),
+    url("ChaparralPro-Regular.woff") format("woff");
 }
 
 .cloud-3 {
-    position: absolute;
-    right: 300px;
-    bottom: 150px;
+  position: absolute;
+  right: 300px;
+  bottom: 150px;
+}
+
+#skills > .container {
+  background-color: #c7ffd8;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 1920px;
+}
+
+.skill-set {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-title {
+  text-align: center;
+  color: #1a51ba;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+}
+
+.skill-picture-1 {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
